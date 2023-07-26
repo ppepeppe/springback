@@ -1,6 +1,6 @@
 
 server:
-  port: 8081
+  port: 5001
 spring:
   jpa:
     hibernate:
@@ -8,6 +8,6 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/pr_db?characterEncoding=UTF-8&&serverTimezone=UTC
+    url: jdbc:mysql://172.17.0.1:3307/pr_db?characterEncoding=UTF-8&&serverTimezone=UTC
     username: root
     password: secret
